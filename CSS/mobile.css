@@ -4,7 +4,7 @@
     --text-white: #d5d7d7;
     --text-black: #1D1616;
     --orange: #f49738;
-    --padding-standar: 16px;
+    --padding-standar: 22px;
     --mobile-fontsize: 1.6rem;
     --mobile-h4Size: 2rem;
 }
@@ -24,7 +24,8 @@ h1,h2{
     font-size: 3rem;
     color: var(--text-white);
 }
-p,h3,h4{
+p{
+    text-align: justify;
     font-size: var(--mobile-fontsize);
     color: var(--text-white);
 }
@@ -143,6 +144,7 @@ button{
     margin: 10px;
 }
 .tarjeta-certificados h4{
+    color: var(--text-white);
     font-size: var(--mobile-h4Size);
     margin-bottom: 10px;
 
