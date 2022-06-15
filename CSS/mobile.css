@@ -21,8 +21,13 @@ body{
     color: var(--text-black);
 }
 h1,h2{
+    text-align: center;
     font-size: 3rem;
     color: var(--text-white);
+}
+h4{
+    color: var(--text-white);
+    font-size: var(--mobile-h4Size);
 }
 p{
     text-align: justify;
@@ -156,3 +161,60 @@ button{
     background-position: center;
     background-size: cover;
 }
+/* =========================================================================================== */
+.idiomas{
+    background-color: var(--clean-gray);
+    padding: var(--padding-standar);
+}
+.idiomas h2{
+    margin-bottom: var(--padding-standar);
+}
+.idiomas h4{
+    text-align: center;
+    position: relative;
+    top: -30px;
+}
+.wrap-circles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 300px));
+    justify-items: center;
+    /* min-height: 100vh; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    background: var(--clean-gray);
+  }
+  
+  .circle {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 26px;
+    border-radius: 50%;
+    background: #FFCDB2;
+    /* overflow: hidden; */
+  }
+  .circle.espanol {
+    background-image: conic-gradient(var(--orange) 100%, var(--text-white) 0);
+  }
+  .circle.ingles {
+    background-image: conic-gradient(var(--orange) 80%, var(--text-white) 0);
+  }
+  
+  .circle .inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 115px;
+    height: 115px;
+    background: var(--clean-gray);
+    border-radius: 50%;
+    font-size: 1.85em;
+    font-weight: 300;
+    color: var(--text-white);
+  }
