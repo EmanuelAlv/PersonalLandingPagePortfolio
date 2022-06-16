@@ -161,6 +161,17 @@ button{
     background-position: center;
     background-size: cover;
 }
+.boton-certificados--Container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.boton-certificados{
+    margin-top: var(--padding-standar);
+    border:solid 1px var(--orange);
+    color: var(--orange);
+    position: relative;
+}
 /* IDIOMAS =========================================================================================== */
 .idiomas{
     background-color: var(--clean-gray);
