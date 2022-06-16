@@ -88,7 +88,7 @@ nav .nav-section a{
     text-align: center;
     align-self: center;
     
-    font-size: 4rem;
+    font-size: 5rem;
 }
 .banner .banner-info p{
     text-align: center;
@@ -239,6 +239,7 @@ button{
     background-position: center;
     background-size: cover;
     margin-bottom: 10px;
+    filter: invert(100%) sepia(1%) saturate(3495%) hue-rotate(162deg) brightness(86%) contrast(94%);
   }
   .icon-container{
     margin: var(--padding-standar);
@@ -260,6 +261,10 @@ button{
     justify-content: center;
     justify-items: center;
   }
+  .contacto-container p{
+    color: var(--orange);
+  }
+
 .contacto-box{
     display: flex;
     justify-content: center;
@@ -274,16 +279,19 @@ button{
     color: var(--orange);
 }
 .contacto-box .tel1{
+    filter: invert(71%) sepia(23%) saturate(1613%) hue-rotate(334deg) brightness(98%) contrast(94%);
     width: 20px;
     height: 20px;
     margin-right: 10px;
     background-image: url('../assets/icon/telephone.svg');
+    
     /*Buenas practricas con backgtound images*/
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .contacto-box .whatsapp{
+    filter: invert(71%) sepia(23%) saturate(1613%) hue-rotate(334deg) brightness(98%) contrast(94%);
     width: 20px;
     height: 20px;
     margin-right: 10px;
@@ -294,6 +302,7 @@ button{
     background-repeat: no-repeat;
 }
 .contacto-box .mail{
+    filter: invert(71%) sepia(23%) saturate(1613%) hue-rotate(334deg) brightness(98%) contrast(94%);
     width: 20px;
     height: 20px;
     margin-right: 10px;
@@ -323,8 +332,9 @@ button{
     align-items: center;
     justify-content: center;
   }
-  .padre img{
+  .padre .little-icons{
     width: 30px;
+    filter: invert(100%) sepia(1%) saturate(3495%) hue-rotate(162deg) brightness(86%) contrast(94%);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
