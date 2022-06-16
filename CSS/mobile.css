@@ -100,7 +100,7 @@ button{
     height: 45px;
     font-size: var(--mobile-fontsize);
     margin-bottom: 16px;
-    border-radius: 4px;
+    border-radius: 12px;
     background: none;
     border:solid 1px var(--text-white);
     color: var(--text-white);
@@ -161,7 +161,7 @@ button{
     background-position: center;
     background-size: cover;
 }
-/* =========================================================================================== */
+/* IDIOMAS =========================================================================================== */
 .idiomas{
     background-color: var(--clean-gray);
     padding: var(--padding-standar);
@@ -217,4 +217,116 @@ button{
     font-size: 1.85em;
     font-weight: 300;
     color: var(--text-white);
+  }
+
+  /* CONOCIMIENTOS========================================================================================================= */
+  .Conocimietos{
+    background-color: var(--dark-gray);
+    padding: var(--padding-standar);
+  }
+  .Conocimietos h2{
+    padding-bottom: var(--padding-standar);
+  }
+  .conocimientos-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 135px));
+    justify-content: center;
+    justify-items: center;
+  }
+  .conocimientos-container .conocimientos-img{
+    width: 90px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+  }
+  .icon-container{
+    margin: var(--padding-standar);
+  }
+  .icon-container h4{
+    text-align: center;
+  }
+  /* CONTACTO================================================================================================================ */
+  .Contacto{
+    background-color: var(--clean-gray);
+    padding: var(--padding-standar);
+  }
+  .Contacto h2{
+    margin-bottom: var(--padding-standar);
+  }
+  .contacto-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 220px));
+    justify-content: center;
+    justify-items: center;
+  }
+.contacto-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 45px;
+    font-size: var(--mobile-fontsize);
+    margin: 16px;
+    border-radius: 12px;
+    background: none;
+    border:solid 1px var(--orange);
+    color: var(--orange);
+}
+.contacto-box .tel1{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-image: url('../assets/icon/telephone.svg');
+    /*Buenas practricas con backgtound images*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.contacto-box .whatsapp{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-image: url('../assets/icon/wha.svg');
+    /*Buenas practricas con backgtound images*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.contacto-box .mail{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-image: url('../assets/icon/mail.svg');
+    /*Buenas practricas con backgtound images*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* ===================================== */
+
+.padre {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 55px;
+    height: 55px;
+    background: var(--orange);
+    border-radius:50%;
+    border: 1px solid var(--dark-gray);
+    z-index:3;
+    text-align: center;
+    cursor:pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .padre img{
+    width: 30px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: var(--clean-gray);
   }
